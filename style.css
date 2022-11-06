@@ -1,0 +1,36 @@
+body{
+    color: aliceblue;
+    padding-left: 38%;
+    padding-top: 4%;
+    background-color: rgb(80, 61, 224);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lbs{
+    background-color: rgb(4, 92, 63);
+    position: absolute;
+    padding: 70px;
+    border-radius: 14px;
+    width: 30;
+    flex-direction: row;
+    align-items: center;
+}
+
+input{
+    padding: 8px;
+    border-radius: 8px;
+    outline:none ;
+}
+
+.botao{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(65, 102, 5);
+    width: 100%;
+    color: aliceblue;
+}
+
+button:hover {
+    background-color:rgb(53, 56, 3);
+    cursor: pointer;
+}
+
