@@ -4,6 +4,7 @@ body{
     padding-top: 4%;
     background-color: rgb(80, 61, 224);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 .lbs{
     background-color: rgb(4, 92, 63);
@@ -19,6 +20,7 @@ input{
     padding: 8px;
     border-radius: 8px;
     outline:none ;
+
 }
 
 .botao{

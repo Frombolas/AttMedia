@@ -10,19 +10,19 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form autocomplete="off">
      <div class="lbs">
      
         <label><b>Aluno</b></label><br>
         <input type="text" id="first_n"><br><br>
         <label><b> 1° Bimestre</b></label><br>
-        <input type="number" id="n1" /><br><br>
+        <input type="number" id="n1" placeholder="nota de 0 a 10"/><br><br>
         <label><b> 2° Bimestre</b></label><br>
-        <input type="number" id="n2" /><br><br>
+        <input type="number" id="n2" placeholder="nota de 0 a 10"/><br><br>
         <label><b> 3° Bimestre</b></label><br>
-        <input type="number" id="n3" /><br><br>
+        <input type="number" id="n3" placeholder="nota de 0 a 10"/><br><br>
         <label><b> 4° Bimestre</b></label><br>
-        <input type="number" id="n4" /><br><br>
+        <input type="number" id="n4" placeholder="nota de 0 a 10"/><br><br>
         <label><b> Resultado</b></label><br>
         <input type="text" id="result" value=""><br><br>
         <label><b> Situação escolar </b></label><br>
@@ -31,7 +31,9 @@
         <button class="botao" type="reset" onclick="calcular()">Calcular</button><br><br>
 
         <a href="index.html"><button class="botao" style="background-color:rgb(159, 7, 7) ;"> Refresh</button></a><br>
-
+        
+        <!-- <button type="submit"></button> -->
+        
         <label style="font-size: 30px;" id="nomew"></label><br><br>
         
         <label id="lb2" value="" ></label>

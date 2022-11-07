@@ -8,18 +8,17 @@ function calcular(){
     var media = parseFloat(Number(n1) + Number(n2) + Number(n3) + Number(n4)) / 4
 
     document.getElementById('result').setAttribute("value", media);
-    // document.getElementById('nomew').innerHTML = nome
 
     if (media >="7"){
         document.getElementById('condicao').setAttribute("value", "Aprovado");
-        alert("Salve Edilva")
+        // alert("Salve Edilva")
     } else if (media <="4"){
         document.getElementById('condicao').setAttribute("value", "Reprovado");
     } else{
         document.getElementById('nomew').innerHTML = nome
         document.getElementById('condicao').setAttribute("value", "irá fazer final")
         let verificar = Number((50 - (media * 6)) / 4)
-        document.getElementById('lb2').innerHTML = 'Pontos necessários para passar: '+verificar;
+        document.getElementById('lb2').innerHTML = 'Você precisa de: ' +verificar;
     }
 }
 console.log("Salve Edilva")
