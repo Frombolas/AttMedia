@@ -1,12 +1,4 @@
-body{
-    color: aliceblue;
-    padding-left: 38%;
-    padding-top: 4%;
-    background-color: rgb(80, 61, 224);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-}
-.lbs{
+.container{
     background-color: rgb(4, 92, 63);
     position: absolute;
     padding: 70px;
@@ -15,6 +7,10 @@ body{
     flex-direction: row;
     align-items: center;
 }
+div{
+    display: flex;
+    flex-direction: column;
+}
 
 input{
     padding: 8px;
@@ -22,7 +18,6 @@ input{
     outline:none ;
 
 }
-
 .botao{
     border-radius: 10px;
     padding: 10px;
@@ -34,5 +29,13 @@ input{
 button:hover {
     background-color:rgb(53, 56, 3);
     cursor: pointer;
+}
+body{
+    color: aliceblue;
+    padding-left: 11%;
+    padding-top: 5%;
+    background-color: rgb(80, 61, 224);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
